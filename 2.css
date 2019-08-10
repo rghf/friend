@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Signika+Negative:400,700);
+
+html, body {
+  height:100%;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+html {
+  background: url('https://2.bp.blogspot.com/-SUMDIuZ7m48/TeWj1YDWcNI/AAAAAAAABhg/9fjPiDZHwms/s1600/winter.JPG') fixed;
+  background-size: 100%;
+}
+
+/*div {
+  border: 1px #333 solid;
+}*/
+
+.header-main {
+  height: 95%;
+  width: 100%;
+  color: #fff;
+  text-shadow: 0px 0px 4px #000;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+}
+.header-main div {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.whitebg {
+  background: #eeeeec;
+  padding: 5%;
+  text-align: center;
+  font-size: 22px;
+}
+
+.credit {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  overflow: hidden;
+  z-index: 1000;
+}
+.credit img {
+  opacity: .5;
+  transition: 700ms;
+}
+.credit img:hover {
+  opacity: .9;
+}
+
+.nopadding {
+  padding: 0;
+}
+
+
+.more {
+  text-align: center;
+  font-size: 22px;
+  color: #ccccca;
+}
+.more a {
+  color: #ccccca;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 500ms;
+}
+.more a:hover {
+  color: #777;
+}
